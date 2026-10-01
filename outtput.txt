@@ -1,0 +1,13 @@
+Enter number of students: 8
+Enter the scores:
+After inserting 78: 78
+After inserting 92: 92 78
+After inserting 65: 92 78 65
+After inserting 88: 92 88 65 78
+After inserting 95: 95 92 65 78 88
+After inserting 72: 95 92 72 78 88 65
+After inserting 84: 95 92 84 78 88 65 72
+After inserting 90: 95 92 90 78 88 65 72 84
+
+Final Max Heap: 95 92 90 78 88 65 72 84
+Insertion comparisons: 12

@@ -1,0 +1,18 @@
+QUESTION (c) - COMPARISON TABLE
+
+| Operation | Max Heap | Linear Search |
+|---|---|---|
+| Finding maximum | O(1) after heap construction | O(n) |
+| Inserting a new score | O(log n) worst case | O(1) to append to an array |
+| Increasing number of students | Suitable for repeated updates and maximum queries | Each maximum search may scan all students |
+| Extra space | O(n) | O(1) extra |
+| Given maximum | 95 | 95 |
+| Given search comparisons | 0 after heap construction | 7 |
+
+IMPORTANT EXECUTION RESULT:
+Max Heap construction comparisons = 12
+Max Heap retrieval comparisons = 0
+Linear Search comparisons = 7
+
+For a one-time maximum search, Linear Search avoids heap construction.
+For continuous insertion with frequent maximum queries, Max Heap is useful.

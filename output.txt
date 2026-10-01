@@ -1,0 +1,10 @@
+Enter number of students: 8
+Enter the scores:
+
+QUESTION (b) - FIND THE HIGHEST SCORE
+Maximum using Max Heap     : 95
+Maximum using Linear Search: 95
+
+Max Heap construction comparisons : 12
+Max Heap maximum retrieval comparisons: 0
+Linear Search comparisons         : 7

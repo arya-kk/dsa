@@ -1,0 +1,33 @@
+QUESTION (b) - FIND MAXIMUM TRACE
+
+GIVEN SCORES:
+78, 92, 65, 88, 95, 72, 84, 90
+
+MAX HEAP METHOD
+After building the Max Heap:
+95 92 90 78 88 65 72 84
+
+The maximum value is stored at the root.
+
+Maximum = 95
+Maximum retrieval comparisons = 0
+
+LINEAR SEARCH METHOD
+
+| Step | Score checked | Current maximum |
+|---|---:|---:|
+| 1 | 78 | 78 |
+| 2 | 92 | 92 |
+| 3 | 65 | 92 |
+| 4 | 88 | 92 |
+| 5 | 95 | 95 |
+| 6 | 72 | 95 |
+| 7 | 84 | 95 |
+| 8 | 90 | 95 |
+
+Linear Search comparisons = 7.
+
+NOTE:
+The 12 Max Heap comparisons are the comparisons used while constructing the
+heap. Once the heap exists, finding its maximum requires only accessing the
+root, so there are 0 element-to-element comparisons for retrieval.

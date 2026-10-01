@@ -1,0 +1,14 @@
+QUESTION (a) - MAX HEAP INSERTION TRACE
+
+| Step | Inserted Score | Heap after insertion |
+|---|---:|---|
+| 1 | 78 | 78 |
+| 2 | 92 | 92 78 |
+| 3 | 65 | 92 78 65 |
+| 4 | 88 | 92 88 65 78 |
+| 5 | 95 | 95 92 65 78 88 |
+| 6 | 72 | 95 92 72 78 88 65 |
+| 7 | 84 | 95 92 84 78 88 65 72 |
+| 8 | 90 | 95 92 90 78 88 65 72 84 |
+
+Final maximum = root = 95.
