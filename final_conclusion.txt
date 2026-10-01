@@ -1,0 +1,15 @@
+QUESTION (c) - FINAL CONCLUSION
+
+Both Max Heap and Linear Search correctly found the highest score, 95.
+
+For one maximum search, Linear Search is simple and requires 7 comparisons for
+the given eight scores. It does not need a separate heap construction.
+
+A Max Heap requires construction, which used 12 parent-child comparisons in
+this implementation. However, after construction, the maximum is always at
+the root and can be obtained in O(1) time. A new score can be inserted in
+O(log n) time in the worst case.
+
+Therefore, for a one-time maximum search, Linear Search is a simple choice.
+When scores are continuously inserted and the highest score must be maintained
+and accessed repeatedly, a Max Heap is more suitable.
